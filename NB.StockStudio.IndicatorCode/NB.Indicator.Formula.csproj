@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <!--Project was exported from assembly: E:\Development\TradingProjects\Easy Financial Chart3.5 .net 4.5\StockExpert\NB.StockStudio\bin\Debug\dllReference\formula\Basic_fml.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{621EB2A9-22CA-468F-8C2F-9DA7F46CC528}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Basic_fml</AssemblyName>
+    <RootNamespace>FML</RootNamespace>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Basic_fml\ABI.cs" />
+    <Compile Include="Basic_fml\AD.cs" />
+    <Compile Include="Basic_fml\ADL.cs" />
+    <Compile Include="Basic_fml\ADR.cs" />
+    <Compile Include="Basic_fml\ADX.cs" />
+    <Compile Include="Basic_fml\AMOUNT.cs" />
+    <Compile Include="Basic_fml\ASI.cs" />
+    <Compile Include="Basic_fml\ATR.cs" />
+    <Compile Include="Basic_fml\B3612.cs" />
+    <Compile Include="Basic_fml\BB.cs" />
+    <Compile Include="Basic_fml\BBI.cs" />
+    <Compile Include="Basic_fml\BBIBOLL.cs" />
+    <Compile Include="Basic_fml\BBWidth.cs" />
+    <Compile Include="Basic_fml\BIAS.cs" />
+    <Compile Include="Basic_fml\BT.cs" />
+    <Compile Include="Basic_fml\CCI.cs" />
+    <Compile Include="Basic_fml\CDP.cs" />
+    <Compile Include="Basic_fml\CHAIKIN.cs" />
+    <Compile Include="Basic_fml\CMF.cs" />
+    <Compile Include="Basic_fml\CYS.cs" />
+    <Compile Include="Basic_fml\DBCD.cs" />
+    <Compile Include="Basic_fml\DDI.cs" />
+    <Compile Include="Basic_fml\DMA.cs" />
+    <Compile Include="Basic_fml\DMI.cs" />
+    <Compile Include="Basic_fml\DPO.cs" />
+    <Compile Include="Basic_fml\ENV.cs" />
+    <Compile Include="Basic_fml\EXPMA.cs" />
+    <Compile Include="Basic_fml\FastSTO.cs" />
+    <Compile Include="Basic_fml\Fibonnaci.cs" />
+    <Compile Include="Basic_fml\LinRegr.cs" />
+    <Compile Include="Basic_fml\LWR.cs" />
+    <Compile Include="Basic_fml\MA.cs" />
+    <Compile Include="Basic_fml\MACD.cs" />
+    <Compile Include="Basic_fml\MASS.cs" />
+    <Compile Include="Basic_fml\MCO.cs" />
+    <Compile Include="Basic_fml\MFI.cs" />
+    <Compile Include="Basic_fml\MI.cs" />
+    <Compile Include="Basic_fml\MICD.cs" />
+    <Compile Include="Basic_fml\MIKE.cs" />
+    <Compile Include="Basic_fml\MTM.cs" />
+    <Compile Include="Basic_fml\OBOS.cs" />
+    <Compile Include="Basic_fml\OBV.cs" />
+    <Compile Include="Basic_fml\PPO.cs" />
+    <Compile Include="Basic_fml\PR.cs" />
+    <Compile Include="Basic_fml\PSY.cs" />
+    <Compile Include="Basic_fml\PVO.cs" />
+    <Compile Include="Basic_fml\PVT.cs" />
+    <Compile Include="Basic_fml\RC.cs" />
+    <Compile Include="Basic_fml\RCCD.cs" />
+    <Compile Include="Basic_fml\ROC.cs" />
+    <Compile Include="Basic_fml\RSI.cs" />
+    <Compile Include="Basic_fml\SAR.cs" />
+    <Compile Include="Basic_fml\SI.cs" />
+    <Compile Include="Basic_fml\SlowSTO.cs" />
+    <Compile Include="Basic_fml\SO.cs" />
+    <Compile Include="Basic_fml\SOBV.cs" />
+    <Compile Include="Basic_fml\SR.cs" />
+    <Compile Include="Basic_fml\SRDM.cs" />
+    <Compile Include="Basic_fml\SRMI.cs" />
+    <Compile Include="Basic_fml\STD.cs" />
+    <Compile Include="Basic_fml\STIX.cs" />
+    <Compile Include="Basic_fml\StochRSI.cs" />
+    <Compile Include="Basic_fml\TRIX.cs" />
+    <Compile Include="Basic_fml\ULT.cs" />
+    <Compile Include="Basic_fml\VHF.cs" />
+    <Compile Include="Basic_fml\VMACD.cs" />
+    <Compile Include="Basic_fml\VOLATI.cs" />
+    <Compile Include="Basic_fml\VOLMA.cs" />
+    <Compile Include="Basic_fml\VOSC.cs" />
+    <Compile Include="Basic_fml\VR.cs" />
+    <Compile Include="Basic_fml\VROC.cs" />
+    <Compile Include="Basic_fml\VRSI.cs" />
+    <Compile Include="Basic_fml\VSTD.cs" />
+    <Compile Include="Basic_fml\WAD.cs" />
+    <Compile Include="Basic_fml\WR.cs" />
+    <Compile Include="Basic_fml\WVAD.cs" />
+    <Compile Include="Basic_fml\ZIG.cs" />
+    <Compile Include="Basic_fml\ZigLabel.cs" />
+    <Compile Include="Extend_fml\BB.cs" />
+    <Compile Include="Extend_fml\CmpIndi.cs" />
+    <Compile Include="Extend_fml\Compare.cs" />
+    <Compile Include="Extend_fml\MainArea.cs" />
+    <Compile Include="Extend_fml\RefIndi.cs" />
+    <Compile Include="Extend_fml\RSI.cs" />
+    <Compile Include="Extend_fml\SlowSTO.cs" />
+    <Compile Include="Extend_fml\SR.cs" />
+    <Compile Include="Extend_fml\SRAxisY.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NB.StockStudio.Foundation\NB.StockStudio.Foundation.csproj">
+      <Project>{b59645b3-b855-48e0-92a3-a46579454396}</Project>
+      <Name>NB.StockStudio.Foundation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

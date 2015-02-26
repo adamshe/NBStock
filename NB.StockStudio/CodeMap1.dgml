@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 @17 Member=(Name=GetBitmap OverloadingParameters=[@36,@36,@25]))" Category="CodeSchema_Method" Bounds="251.525,259.135,91.9266666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="GetBitmap" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="GetBitmap" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaChart.cs&quot; StartLineNumber=563 StartCharacterOffset=8 EndLineNumber=563 EndCharacterOffset=8)" />
+    <Node Id="(@1 @2 @17 Member=SetView)" Category="CodeSchema_Method" Bounds="170.475,575.917500000001,78.0266666666666,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="SetView" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="SetView" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaChart.cs&quot; StartLineNumber=1186 StartCharacterOffset=0 EndLineNumber=1186 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 @20 Member=(Name=InitCanvas OverloadingParameters=[(@18 Namespace=System.Drawing Type=Graphics),@25,@36,@49,@49]))" Category="CodeSchema_Method" Bounds="270.373333333333,691.212500000001,90.23,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="InitCanvas" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="InitCanvas" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaArea.cs&quot; StartLineNumber=612 StartCharacterOffset=0 EndLineNumber=612 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 @30 Member=(Name=SetBrush @28))" Category="CodeSchema_Method" Bounds="492.266666666667,864.155000000001,82.4433333333332,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="SetBrush" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="SetBrush" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaData.cs&quot; StartLineNumber=804 StartCharacterOffset=0 EndLineNumber=804 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 Type=FormulaAxisX Member=(Name=Render OverloadingParameters=[(@1 @2 Type=FormulaCanvas),(@1 @2 @20)]))" Category="CodeSchema_Method" Bounds="166.608333333333,691.212500000001,73.76,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Render" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Render" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaAxisX.cs&quot; StartLineNumber=108 StartCharacterOffset=0 EndLineNumber=108 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 Type=FormulaAxisY Member=(Name=Render OverloadingParameters=[(@1 @2 Type=FormulaCanvas),(@1 @2 @20)]))" Category="CodeSchema_Method" Bounds="390.608333333333,691.212500000001,73.76,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Render" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Render" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaAxisY.cs&quot; StartLineNumber=233 StartCharacterOffset=0 EndLineNumber=233 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 Type=FormulaBase Member=(Name=GetAllIndicators OverloadingParameters=[(@3 @4 Type=Boolean)]))" Category="CodeSchema_Method" Bounds="51.4383333333334,460.622500000001,120.1,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="GetAllIndicators" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="GetAllIndicators" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaBase.cs&quot; StartLineNumber=964 StartCharacterOffset=0 EndLineNumber=964 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 Namespace=NB.StockStudio.Foundation.DataProvider Type=DataPackage Member=(Name=.ctor OverloadingParameters=[(@3 @4 Type=DateTime),@49,@49,@49,@49,@49,@49,@49,@27,@27]))" Category="CodeSchema_Method" Bounds="725.25,575.917500000001,104.476666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="DataPackage" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Constructor" Label="DataPackage" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/DataProvider/DataPackage.cs&quot; StartLineNumber=42 StartCharacterOffset=0 EndLineNumber=42 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@13 @14 @15 Member=(Name=Chart_ExtraPaint OverloadingParameters=[(@3 @4 Type=Object),(@1 @2 Type=NativePaintArgs)]))" Category="CodeSchema_Method" Bounds="297.458333333333,518.270000000001,122.06,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="Chart_ExtraPaint" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Chart_ExtraPaint" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.WinControls/ChartWinControl.cs&quot; StartLineNumber=205 StartCharacterOffset=0 EndLineNumber=205 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@13 @14 @15 Member=InitializeComponent)" Category="CodeSchema_Method" Bounds="388.343333333333,201.4875,142.29,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="InitializeComponent" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="InitializeComponent" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.WinControls/ChartWinControl.cs&quot; StartLineNumber=683 StartCharacterOffset=8 EndLineNumber=683 EndCharacterOffset=8)" />
+    <Node Id="(@13 @14 @15 Member=NeedRebind)" Category="CodeSchema_Method" Bounds="451.555,575.9175,101.866666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="NeedRebind" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="NeedRebind" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.WinControls/ChartWinControl.cs&quot; StartLineNumber=967 StartCharacterOffset=0 EndLineNumber=967 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@43 @44 Type=AlphabeticIDIndexDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/AlphabeticIDIndexDownload.cs&quot; StartLineNumber=66 StartCharacterOffset=8 EndLineNumber=66 EndCharacterOffset=8)" />
+    <Node Id="(@43 @44 Type=ChartDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/ChartDownload.cs&quot; StartLineNumber=81 StartCharacterOffset=8 EndLineNumber=81 EndCharacterOffset=8)" />
+    <Node Id="(@43 @44 Type=CompanyInfoDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/CompanyInfoDownload.cs&quot; StartLineNumber=82 StartCharacterOffset=8 EndLineNumber=82 EndCharacterOffset=8)" />
+    <Node Id="(@43 @44 Type=CompanyProfileDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/CompanyProfileDownload.cs&quot; StartLineNumber=67 StartCharacterOffset=8 EndLineNumber=67 EndCharacterOffset=8)" />
+    <Node Id="(@43 @44 Type=FuturesChainDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/FuturesChainDownload.cs&quot; StartLineNumber=86 StartCharacterOffset=8 EndLineNumber=86 EndCharacterOffset=8)" />
+    <Node Id="(@43 @44 Type=HistQuotesDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/HistQuotesDownload.cs&quot; StartLineNumber=85 StartCharacterOffset=8 EndLineNumber=85 EndCharacterOffset=8)" />
+    <Node Id="(@43 @44 Type=IDSearchDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/IDSearchDownload.cs&quot; StartLineNumber=77 StartCharacterOffset=8 EndLineNumber=77 EndCharacterOffset=8)" />
+    <Node Id="(@43 @44 Type=MarketDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/MarketDownload.cs&quot; StartLineNumber=170 StartCharacterOffset=8 EndLineNumber=170 EndCharacterOffset=8)" />
+    <Node Id="(@43 @44 Type=MarketQuotesDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/MarketQuotesDownload.cs&quot; StartLineNumber=92 StartCharacterOffset=8 EndLineNumber=92 EndCharacterOffset=8)" />
+    <Node Id="(@43 @44 Type=QuoteOptionsDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/QuoteOptionsDownload.cs&quot; StartLineNumber=171 StartCharacterOffset=8 EndLineNumber=171 EndCharacterOffset=8)" />
+    <Node Id="(@43 @44 Type=QuotesDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/QuotesDownload.cs&quot; StartLineNumber=118 StartCharacterOffset=8 EndLineNumber=118 EndCharacterOffset=8)" />
+    <Node Id="(@43 @46 Type=Html2XmlDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Base/Html2XmlDownload.cs&quot; StartLineNumber=44 StartCharacterOffset=8 EndLineNumber=44 EndCharacterOffset=8)" />
+    <Node Id="(@43 @46 Type=PostDataUpload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Base/PostDataUpload.cs&quot; StartLineNumber=45 StartCharacterOffset=8 EndLineNumber=45 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Finance.YahooPortfolio Type=HoldingsDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooPortfolio/HoldingsDownload.cs&quot; StartLineNumber=45 StartCharacterOffset=8 EndLineNumber=45 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Finance.YahooPortfolio Type=PortfolioDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooPortfolio/PortfolioDownload.cs&quot; StartLineNumber=46 StartCharacterOffset=8 EndLineNumber=46 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Finance.YahooPortfolio Type=PortfolioInfoDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooPortfolio/PortfolioInfoDownload.cs&quot; StartLineNumber=47 StartCharacterOffset=8 EndLineNumber=47 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Finance.YahooScreener Type=BondScreenerDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooScreener/BondScreenerDownload.cs&quot; StartLineNumber=50 StartCharacterOffset=8 EndLineNumber=50 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Finance.YahooScreener Type=BondScreenerInfoDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooScreener/BondScreenerInfoDownload.cs&quot; StartLineNumber=59 StartCharacterOffset=8 EndLineNumber=59 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Finance.YahooScreener Type=StockScreenerDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooScreener/StockScreenerDownload.cs&quot; StartLineNumber=77 StartCharacterOffset=8 EndLineNumber=77 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Geo.GeoPlanet Type=PlacesDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Geo/GeoPlanet/PlacesDownload.cs&quot; StartLineNumber=211 StartCharacterOffset=8 EndLineNumber=211 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Geo.PlaceFinder Type=PlaceFinderDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Geo/PlaceFinder/PlaceFinderDownload.cs&quot; StartLineNumber=62 StartCharacterOffset=8 EndLineNumber=62 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Search.BOSS Type=SearchDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Search/BOSS/SearchDownload.cs&quot; StartLineNumber=71 StartCharacterOffset=8 EndLineNumber=71 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Search.BOSS Type=SuggestionDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Search/BOSS/RelatedSuggestionsDownload.cs&quot; StartLineNumber=61 StartCharacterOffset=8 EndLineNumber=61 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Weather.YahooWeather Type=LocationIDSearchDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Weather/YahooWeather/LocationIDSearchDownload.cs&quot; StartLineNumber=58 StartCharacterOffset=8 EndLineNumber=58 EndCharacterOffset=8)" />
+    <Node Id="(@43 Namespace=MaasOne.Weather.YahooWeather Type=WeatherFeedDownload @47)" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Weather/YahooWeather/WeatherFeedDownload.cs&quot; StartLineNumber=94 StartCharacterOffset=8 EndLineNumber=94 EndCharacterOffset=8)" />
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="714.826666666667,460.6225,125.323333333333,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="GetRealtimeData" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="GetRealtimeData" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/StockDB.cs&quot; StartLineNumber=390 StartCharacterOffset=0 EndLineNumber=390 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@12" Category="CodeSchema_Method" Bounds="128.355,259.135,92.2666666666667,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="ShowForm" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="ShowForm" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/ListForm.cs&quot; StartLineNumber=598 StartCharacterOffset=0 EndLineNumber=598 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@16" Category="CodeSchema_Method" Bounds="408.191666666667,402.975,88.5933333333332,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ApplySkin" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="ApplySkin" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.WinControls/ChartWinControl.cs&quot; StartLineNumber=146 StartCharacterOffset=0 EndLineNumber=146 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@19" Category="CodeSchema_Method" Bounds="152.456666666667,518.270000000001,114.063333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="InternalRender" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="InternalRender" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaChart.cs&quot; StartLineNumber=957 StartCharacterOffset=0 EndLineNumber=957 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@21" Category="CodeSchema_Method" Bounds="278.608333333333,575.9175,73.76,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Render" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Render" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaArea.cs&quot; StartLineNumber=727 StartCharacterOffset=0 EndLineNumber=727 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@22" Category="CodeSchema_Method" Bounds="263.608333333333,331.055,73.76,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Render" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Render" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaChart.cs&quot; StartLineNumber=992 StartCharacterOffset=0 EndLineNumber=992 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@23" Category="CodeSchema_Method" Bounds="558.886666666667,460.6225,125.203333333333,25.96" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Property Set" IsCodeType="False" IsOverloaded="False" IsOverridable="False" Label="set_DataProvider" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" MustImplement="False" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaChart.cs&quot; StartLineNumber=1312 StartCharacterOffset=0 EndLineNumber=1312 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@24" Category="CodeSchema_Method" Bounds="572.771666666667,402.975,93.4333333333334,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ShowChart" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="ShowChart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.WinControls/ChartWinControl.cs&quot; StartLineNumber=1268 StartCharacterOffset=0 EndLineNumber=1268 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@26" Category="CodeSchema_Method" Bounds="240.83,460.6225,119.316666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="GetMemBitmap" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="GetMemBitmap" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaChart.cs&quot; StartLineNumber=670 StartCharacterOffset=0 EndLineNumber=670 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@29" Category="CodeSchema_Method" Bounds="696.826666666667,402.975,125.323333333333,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="GetRealtimeData" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="GetRealtimeData" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/StockDB.cs&quot; StartLineNumber=400 StartCharacterOffset=0 EndLineNumber=400 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@31" Category="CodeSchema_Method" Bounds="497.106666666667,748.860000000001,72.7633333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="SetAttr" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="SetAttr" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaData.cs&quot; StartLineNumber=740 StartCharacterOffset=0 EndLineNumber=740 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@32" Category="CodeSchema_Method" Bounds="494.56,691.212500000001,77.8566666666666,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="SetAttrs" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="SetAttrs" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaData.cs&quot; StartLineNumber=787 StartCharacterOffset=0 EndLineNumber=787 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@33" Category="CodeSchema_Method" Bounds="449.801666666667,518.27,105.373333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="SetDataCycle" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="SetDataCycle" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.WinControls/ChartWinControl.cs&quot; StartLineNumber=1242 StartCharacterOffset=0 EndLineNumber=1242 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@34" Category="CodeSchema_Method" Bounds="480.245,806.507500000001,106.486666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="SetProperties" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="SetProperties" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaData.cs&quot; StartLineNumber=763 StartCharacterOffset=0 EndLineNumber=763 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@35" Category="CodeSchema_Method" Bounds="242.221666666667,129.5675,84.5333333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="WndProc" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" IsOverloaded="True" Label="WndProc" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/MainForm.cs&quot; StartLineNumber=344 StartCharacterOffset=0 EndLineNumber=344 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@37" Category="CodeSchema_Method" Bounds="561.621666666667,259.135,93.7333333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="OpenChart" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="OpenChart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/ListForm.cs&quot; StartLineNumber=556 StartCharacterOffset=0 EndLineNumber=556 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@38" Category="CodeSchema_Method" Bounds="540.463333333333,129.5675,136.05,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="dgList_DoubleClick" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="dgList_DoubleClick" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/ListForm.cs&quot; StartLineNumber=101 StartCharacterOffset=0 EndLineNumber=101 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@39" Category="CodeSchema_Method" Bounds="114.513333333333,331.055,111.95,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="ListForm_Load" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="ListForm_Load" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/ListForm.cs&quot; StartLineNumber=460 StartCharacterOffset=0 EndLineNumber=460 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@40" Category="CodeSchema_Method" Bounds="186.081666666667,201.4875,120.813333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="MainForm_Load" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="MainForm_Load" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/MainForm.cs&quot; StartLineNumber=196 StartCharacterOffset=0 EndLineNumber=196 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@41" Category="CodeSchema_Method" Bounds="374.253333333333,259.135,156.47,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="ChartWinControl_Paint" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="ChartWinControl_Paint" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.WinControls/ChartWinControl.cs&quot; StartLineNumber=560 StartCharacterOffset=0 EndLineNumber=560 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@42" Category="CodeSchema_Method" Bounds="558.921666666667,331.055,121.133333333333,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="OpenChartForm" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="OpenChartForm" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/ChartForm.cs&quot; StartLineNumber=253 StartCharacterOffset=0 EndLineNumber=253 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@48" Category="CodeSchema_Method" Bounds="0,0,109.823333333333,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="ConvertResult" FunctionTypeFlags="Method" IsOverloaded="True" Label="ConvertResult" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/Finance/YahooFinance/CompanyStatisticsDownload.cs&quot; StartLineNumber=88 StartCharacterOffset=8 EndLineNumber=88 EndCharacterOffset=8)" />
+    <Node Id="@50" Category="CodeSchema_Method" Bounds="278.608333333333,633.565000000001,73.76,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Render" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Render" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaArea.cs&quot; StartLineNumber=971 StartCharacterOffset=0 EndLineNumber=971 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@51" Category="CodeSchema_Method" Bounds="725.25,518.270000000001,104.476666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="DataPackage" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Constructor" Label="DataPackage" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/DataProvider/DataPackage.cs&quot; StartLineNumber=30 StartCharacterOffset=0 EndLineNumber=30 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@52" Category="CodeSchema_Method" Bounds="44.5000000000001,402.975000000001,133.976666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsStatic="True" CommonLabel="static SymbolForm" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Constructor" Label="static SymbolForm" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/SymbolForm.cs&quot; StartLineNumber=34 StartCharacterOffset=0 EndLineNumber=34 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@53" Category="CodeSchema_Method" Bounds="408.191666666667,331.055,88.5933333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ApplySkin" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="ApplySkin" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.WinControls/ChartWinControl.cs&quot; StartLineNumber=131 StartCharacterOffset=0 EndLineNumber=131 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@54" Category="CodeSchema_Method" Bounds="585.666666666667,575.9175,59.6433333333334,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Bind" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Bind" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaArea.cs&quot; StartLineNumber=203 StartCharacterOffset=0 EndLineNumber=203 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@55" Category="CodeSchema_Method" Bounds="585.666666666667,518.27,59.6433333333334,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Bind" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Bind" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaChart.cs&quot; StartLineNumber=301 StartCharacterOffset=0 EndLineNumber=301 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@56" Category="CodeSchema_Method" Bounds="240.83,402.975000000001,119.316666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="GetMemBitmap" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="GetMemBitmap" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/Core/FormulaChart.cs&quot; StartLineNumber=654 StartCharacterOffset=0 EndLineNumber=654 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@57" Category="CodeSchema_Method" Bounds="326.198333333333,57.6475,62.5799999999999,25.96" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Main" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Main" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/MainForm.cs&quot; StartLineNumber=178 StartCharacterOffset=0 EndLineNumber=178 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@58" Category="CodeSchema_Method" Bounds="390.801666666667,460.6225,105.373333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="SetDataCycle" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="SetDataCycle" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.WinControls/ChartWinControl.cs&quot; StartLineNumber=1231 StartCharacterOffset=0 EndLineNumber=1231 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@60" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="505.11,633.565000000001,56.7566666666667,25.96" Label="Run" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.CoreIndicator/Extend/BB.cs&quot; StartLineNumber=27 StartCharacterOffset=0 EndLineNumber=27 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@61" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="592.11,633.565000000001,56.7566666666667,25.96" Label="Run" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.CoreIndicator/Extend/RSI.cs&quot; StartLineNumber=31 StartCharacterOffset=0 EndLineNumber=31 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@8" Category="CodeSchema_Method" Bounds="561.621666666667,201.4875,93.7333333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="OpenChart" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="OpenChart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///e:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/ListForm.cs&quot; StartLineNumber=546 StartCharacterOffset=0 EndLineNumber=546 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="ExternalCodeRootNode" Category="ExternalCallStackEntry" Bounds="310.995,0,92.9866666666667,25.96" Label="External Code">
+      <Category Ref="CallStackEntry" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="(@1 @2 @17 Member=(Name=GetBitmap OverloadingParameters=[@36,@36,@25]))" Target="@22" Category="CodeSchema_Calls" Bounds="298.029754638672,285.095001220703,1.54205322265625,36.9678039550781" Weight="1" />
+    <Link Source="(@13 @14 @15 Member=InitializeComponent)" Target="@41" Category="CodeSchema_FunctionPointer" Bounds="455.149353027344,227.447494506836,2.76284790039063,22.7531280517578" Weight="1" />
+    <Link Source="(@43 @44 Type=AlphabeticIDIndexDownload @47)" Target="@48" />
+    <Link Source="(@43 @44 Type=ChartDownload @47)" Target="@48" />
+    <Link Source="(@43 @44 Type=CompanyInfoDownload @47)" Target="@48" />
+    <Link Source="(@43 @44 Type=CompanyProfileDownload @47)" Target="@48" />
+    <Link Source="(@43 @44 Type=FuturesChainDownload @47)" Target="@48" />
+    <Link Source="(@43 @44 Type=HistQuotesDownload @47)" Target="@48" />
+    <Link Source="(@43 @44 Type=IDSearchDownload @47)" Target="@48" />
+    <Link Source="(@43 @44 Type=MarketDownload @47)" Target="@48" />
+    <Link Source="(@43 @44 Type=MarketQuotesDownload @47)" Target="@48" />
+    <Link Source="(@43 @44 Type=QuoteOptionsDownload @47)" Target="@48" />
+    <Link Source="(@43 @44 Type=QuotesDownload @47)" Target="@48" />
+    <Link Source="(@43 @46 Type=Html2XmlDownload @47)" Target="@48" />
+    <Link Source="(@43 @46 Type=PostDataUpload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Finance.YahooPortfolio Type=HoldingsDownload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Finance.YahooPortfolio Type=PortfolioDownload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Finance.YahooPortfolio Type=PortfolioInfoDownload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Finance.YahooScreener Type=BondScreenerDownload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Finance.YahooScreener Type=BondScreenerInfoDownload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Finance.YahooScreener Type=StockScreenerDownload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Geo.GeoPlanet Type=PlacesDownload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Geo.PlaceFinder Type=PlaceFinderDownload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Search.BOSS Type=SearchDownload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Search.BOSS Type=SuggestionDownload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Weather.YahooWeather Type=LocationIDSearchDownload @47)" Target="@48" />
+    <Link Source="(@43 Namespace=MaasOne.Weather.YahooWeather Type=WeatherFeedDownload @47)" Target="@48" />
+    <Link Source="@10" Target="@51" Category="CallStackDirectCall" Bounds="777.488342285156,486.582489013672,0,22.6875" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@12" Target="@39" Category="CallStackIndirectCall" Bounds="171.710037231445,285.095001220703,2.05638122558594,36.973876953125" Label="External Code" LabelBounds="99.5016666666669,300.095,72.9866666666667,15.96" />
+    <Link Source="@16" Target="@58" Category="CallStackDirectCall" Bounds="446.903076171875,428.934997558594,3.55880737304688,22.7952270507813">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@19" Target="(@1 @2 @17 Member=SetView)" Category="CallStackDirectCall" Bounds="209.488327026367,544.22998046875,0,22.6875" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@19" Target="@21" Category="CallStackDirectCall" Bounds="233.355453491211,544.22998046875,50.3593597412109,27.3876953125" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@21" Target="@50" Category="CallStackDirectCall" Bounds="315.488342285156,601.877502441406,0,22.6875" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@22" Target="@19" Category="CodeSchema_Calls" Bounds="209.488327026367,357.015014648438,58.1529388427734,152.254974365234" Weight="1" />
+    <Link Source="@22" Target="@56" Category="CallStackDirectCall" Bounds="300.488342285156,357.015014648438,0,36.9599914550781">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@23" Target="@55" Category="CallStackDirectCall" Bounds="617.77099609375,486.582489013672,2.36639404296875,22.7358703613281" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@24" Target="@23" Category="CallStackDirectCall" Bounds="620.388977050781,428.934997558594,1.0303955078125,22.6877746582031">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@24" Target="@58" Category="CodeSchema_Calls" Bounds="474.854583740234,426.78564453125,98.0401916503906,29.6171264648438" Weight="1" />
+    <Link Source="@26" Target="(@13 @14 @15 Member=(Name=Chart_ExtraPaint OverloadingParameters=[(@3 @4 Type=Object),(@1 @2 Type=NativePaintArgs)]))" Category="CallStackDirectCall" Bounds="313.547698974609,486.582489013672,25.4979248046875,25.3429870605469" />
+    <Link Source="@26" Target="@19" Category="CallStackDirectCall" Bounds="237.580871582031,486.582489013672,42.4177551269531,26.8711853027344" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@29" Target="@10" Category="CallStackDirectCall" Bounds="763.541259765625,428.934997558594,7.21173095703125,23.0965576171875">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@31" Target="@34" Category="CallStackDirectCall" Bounds="533.488342285156,774.820007324219,0,22.6875" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@32" Target="@31" Category="CallStackDirectCall" Bounds="533.488342285156,717.172485351563,0,22.6875" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@33" Target="(@13 @14 @15 Member=NeedRebind)" Category="CallStackDirectCall" Bounds="502.488342285156,544.22998046875,0,22.6875">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@34" Target="(@1 @2 @30 Member=(Name=SetBrush @28))" Category="CallStackDirectCall" Bounds="533.488342285156,832.467529296875,0,22.6875" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@35" Target="@40" Category="CallStackIndirectCall" Bounds="246.723068237305,155.527496337891,24.0489044189453,36.9630584716797" Label="External Code" LabelBounds="174.379164415327,170.775463571903,72.9866666666667,15.96" />
+    <Link Source="@37" Target="@42" Category="CallStackDirectCall" Bounds="610.473571777344,285.095001220703,5.6688232421875,37.0634460449219" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@38" Target="@8" Category="CallStackDirectCall" Bounds="608.488342285156,155.527496337891,0,36.9600067138672">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@39" Target="@52" Category="CallStackIndirectCall" Bounds="127.844749450684,357.015014648438,31.9953689575195,39.0018005371094" Label="External Code" LabelBounds="68.0016666666669,372.015,72.9866666666667,15.96" />
+    <Link Source="@40" Target="@12" Category="CallStackDirectCall" Bounds="197.725524902344,227.447494506836,32.5511779785156,26.0624237060547" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@41" Target="@22" Category="CodeSchema_Calls" Bounds="336.056335449219,285.095001220703,88.9992980957031,42.1107177734375" Weight="1">
+      <Category Ref="CallStackDirectCall" />
+    </Link>
+    <Link Source="@41" Target="@53" Category="CallStackDirectCall" Bounds="452.488342285156,285.095001220703,0,36.9599914550781" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@41" Target="@55" Category="CodeSchema_Calls" Bounds="479.560089111328,285.095001220703,108.585601806641,228.243194580078" Weight="1">
+      <Category Ref="CallStackDirectCall" />
+    </Link>
+    <Link Source="@42" Target="@24" Category="CallStackDirectCall" Bounds="619.488342285156,357.015014648438,0,36.9599914550781" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@42" Target="@29" Category="CallStackDirectCall" Bounds="644.755310058594,357.015014648438,81.4606323242188,41.8474731445313" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@50" Target="(@1 @2 @20 Member=(Name=InitCanvas OverloadingParameters=[(@18 Namespace=System.Drawing Type=Graphics),@25,@36,@49,@49]))" Category="CallStackDirectCall" Bounds="315.488342285156,659.525024414063,0,22.6875" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@50" Target="(@1 @2 Type=FormulaAxisX Member=(Name=Render OverloadingParameters=[(@1 @2 Type=FormulaCanvas),(@1 @2 @20)]))" Category="CallStackDirectCall" Bounds="236.708633422852,659.525024414063,53.5615997314453,27.5686645507813" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@50" Target="(@1 @2 Type=FormulaAxisY Member=(Name=Render OverloadingParameters=[(@1 @2 Type=FormulaCanvas),(@1 @2 @20)]))" Category="CallStackDirectCall" Bounds="340.706420898438,659.525024414063,53.5616149902344,27.5686645507813" Weight="1">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@51" Target="(@1 Namespace=NB.StockStudio.Foundation.DataProvider Type=DataPackage Member=(Name=.ctor OverloadingParameters=[(@3 @4 Type=DateTime),@49,@49,@49,@49,@49,@49,@49,@27,@27]))" Category="CallStackDirectCall" Bounds="777.488342285156,544.22998046875,0,22.6875">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@52" Target="(@1 @2 Type=FormulaBase Member=(Name=GetAllIndicators OverloadingParameters=[(@3 @4 Type=Boolean)]))" Category="CallStackDirectCall" Bounds="111.488334655762,428.934997558594,0,22.6875" />
+    <Link Source="@52" Target="@52" Category="CallStackDirectCall" Bounds="1,409.547332763672,43.5,12.6122131347656" />
+    <Link Source="@53" Target="@16" Category="CallStackDirectCall" Bounds="452.488342285156,357.015014648438,0,36.9599914550781">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@54" Target="@60" Category="CallStackDirectCall" Bounds="559.314208984375,601.877502441406,37.7108764648438,26.5114135742188" />
+    <Link Source="@54" Target="@61" Category="CallStackDirectCall" Bounds="616.614135742188,601.877502441406,1.970703125,22.7211303710938" />
+    <Link Source="@55" Target="@54" Category="CallStackDirectCall" Bounds="615.488342285156,544.22998046875,0,22.6875">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@56" Target="@26" Category="CallStackDirectCall" Bounds="300.488342285156,428.934997558594,0,22.6875">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@57" Target="@35" Category="CallStackIndirectCall" Bounds="302.946502685547,83.6074981689453,40.4645080566406,39.4225921630859" Label="External Code" LabelBounds="245.501666666667,98.6075000000001,72.9866666666668,15.96" />
+    <Link Source="@57" Target="@38" Category="CallStackIndirectCall" Bounds="388.7783203125,79.593147277832,165.758117675781,47.4953079223633" Label="External Code" LabelBounds="410.001666666667,98.6075000000001,72.9866666666667,15.96" />
+    <Link Source="@57" Target="@41" Category="CallStackIndirectCall" Bounds="357.488342285156,83.6074981689453,43.6491394042969,172.779342651367" Label="External Code" LabelBounds="284.501666666667,170.5275,72.9866666666667,15.96" />
+    <Link Source="@58" Target="@33" Category="CallStackDirectCall" Bounds="456.772857666016,486.582489013672,25.9936218261719,25.3977661132813">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@60" Target="@32" Category="CallStackDirectCall" Bounds="533.488342285156,659.525024414063,0,22.6875" />
+    <Link Source="@61" Target="@32" Category="CallStackDirectCall" Bounds="560.579833984375,659.525024414063,40.3194580078125,26.7162475585938" />
+    <Link Source="@8" Target="@37" Category="CallStackDirectCall" Bounds="608.488342285156,227.447494506836,0,22.6875">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="ExternalCodeRootNode" Target="@57" Category="CallStackIndirectCall" Bounds="357.488342285156,25.9599990844727,0,22.6875" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
+    <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
+    <Category Id="CallStackIndirectCall" Label="Call Stack indirect call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack indirect call" OutgoingActionLabel="Call Stack indirect call" />
+    <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="Unresolved Method" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="Unresolved Method" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Function Pointer" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Function Pointers" OutgoingActionLabel="Function Pointers" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_SourceLocation" Label="Source Location" Icon="File" />
+    <Category Id="ExternalCallStackEntry" Label="External Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="External Call Stack Entry" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="Is Protected" Description="Flag to indicate the scope is Protected" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsCodeType" Label="IsCodeType" Description="IsCodeType" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsOverloaded" Label="IsOverloaded" Description="IsOverloaded" DataType="System.Boolean" />
+    <Property Id="IsOverridable" Label="IsOverridable" Description="IsOverridable" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="MustImplement" Label="MustImplement" Description="MustImplement" DataType="System.Boolean" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="IsUnresolved" Label="Is Unresolved" ValueType="System.String" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParamKind" Label="Parameter Kind" ValueType="Microsoft.VisualStudio.GraphModel.CodeSchema.ParamKind" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(b59645b3-b855-48e0-92a3-a46579454396.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=NB.StockStudio.Foundation" />
+    <Alias n="3" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="4" Id="Namespace=System" />
+    <Alias n="5" Uri="Assembly=$(d79f7796-8af2-4d05-82bb-d52a829dbba6.OutputPathUri)" />
+    <Alias n="6" Id="Namespace=StockExpert" />
+    <Alias n="7" Id="Type=ListForm" />
+    <Alias n="8" Id="(@5 @6 @7 Member=(Name=OpenChart OverloadingParameters=[(@3 @4 Type=Boolean)]))" />
+    <Alias n="9" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Data.dll" />
+    <Alias n="10" Id="(@5 @6 Type=StockDB Member=(Name=GetRealtimeData OverloadingParameters=[(@9 Namespace=System.Data Type=DataRow)]))" />
+    <Alias n="11" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Windows.Forms.dll" />
+    <Alias n="12" Id="(@5 @6 @7 Member=(Name=ShowForm OverloadingParameters=[(@11 Namespace=System.Windows.Forms Type=Form)]))" />
+    <Alias n="13" Uri="Assembly=$(144d73ca-9855-48d6-90d8-32f17c1e39e2.OutputPathUri)" />
+    <Alias n="14" Id="Namespace=NB.StockStudio.WinControls" />
+    <Alias n="15" Id="Type=ChartWinControl" />
+    <Alias n="16" Id="(@13 @14 @15 Member=(Name=ApplySkin OverloadingParameters=[(@1 @2 Type=FormulaSkin)]))" />
+    <Alias n="17" Id="Type=FormulaChart" />
+    <Alias n="18" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Drawing.dll" />
+    <Alias n="19" Id="(@1 @2 @17 Member=(Name=InternalRender OverloadingParameters=[(@18 Namespace=System.Drawing Type=Graphics)]))" />
+    <Alias n="20" Id="Type=FormulaArea" />
+    <Alias n="21" Id="(@1 @2 @20 Member=(Name=Render OverloadingParameters=[(@18 Namespace=System.Drawing Type=Graphics)]))" />
+    <Alias n="22" Id="(@1 @2 @17 Member=(Name=Render OverloadingParameters=[(@18 Namespace=System.Drawing Type=Graphics)]))" />
+    <Alias n="23" Id="(@1 @2 @17 Member=(Name=set_DataProvider OverloadingParameters=[(@1 Namespace=NB.StockStudio.Foundation.DataProvider Type=IDataProvider)]))" />
+    <Alias n="24" Id="(@13 @14 @15 Member=(Name=ShowChart OverloadingParameters=[(@1 Namespace=NB.StockStudio.Foundation.DataProvider Type=IDataProvider)]))" />
+    <Alias n="25" Id="(@18 Namespace=System.Drawing Type=Rectangle)" />
+    <Alias n="26" Id="(@1 @2 @17 Member=(Name=GetMemBitmap OverloadingParameters=[@25]))" />
+    <Alias n="27" Id="(@3 @4 Type=String)" />
+    <Alias n="28" Id="OverloadingParameters=[@27]" />
+    <Alias n="29" Id="(@5 @6 Type=StockDB Member=(Name=GetRealtimeData @28))" />
+    <Alias n="30" Id="Type=FormulaData" />
+    <Alias n="31" Id="(@1 @2 @30 Member=(Name=SetAttr @28))" />
+    <Alias n="32" Id="(@1 @2 @30 Member=(Name=SetAttrs @28))" />
+    <Alias n="33" Id="(@13 @14 @15 Member=(Name=SetDataCycle @28))" />
+    <Alias n="34" Id="(@1 @2 @30 Member=(Name=SetProperties @28))" />
+    <Alias n="35" Id="(@5 @6 Type=MainForm Member=(Name=WndProc OverloadingParameters=[(@11 Namespace=System.Windows.Forms Type=Message ParamKind=Ref)]))" />
+    <Alias n="36" Id="(@3 @4 Type=Int32)" />
+    <Alias n="37" Id="(@5 @6 @7 Member=(Name=OpenChart OverloadingParameters=[@36,(@3 @4 Type=Boolean)]))" />
+    <Alias n="38" Id="(@5 @6 @7 Member=(Name=dgList_DoubleClick OverloadingParameters=[(@3 @4 Type=Object),(@3 @4 Type=EventArgs)]))" />
+    <Alias n="39" Id="(@5 @6 @7 Member=(Name=ListForm_Load OverloadingParameters=[(@3 @4 Type=Object),(@3 @4 Type=EventArgs)]))" />
+    <Alias n="40" Id="(@5 @6 Type=MainForm Member=(Name=MainForm_Load OverloadingParameters=[(@3 @4 Type=Object),(@3 @4 Type=EventArgs)]))" />
+    <Alias n="41" Id="(@13 @14 @15 Member=(Name=ChartWinControl_Paint OverloadingParameters=[(@3 @4 Type=Object),(@11 Namespace=System.Windows.Forms Type=PaintEventArgs)]))" />
+    <Alias n="42" Id="(@5 @6 Type=ChartForm Member=(Name=OpenChartForm OverloadingParameters=[@27,(@11 Namespace=System.Windows.Forms Type=Form),(@3 @4 Type=Boolean)]))" />
+    <Alias n="43" Uri="Assembly=$(a3c55947-1d21-401b-802c-dbf156061b3e.OutputPathUri)" />
+    <Alias n="44" Id="Namespace=MaasOne.Finance.YahooFinance" />
+    <Alias n="45" Uri="Assembly=$(203e203c-9025-4d3f-bad7-f36d53e8b9e7.OutputPathUri)" />
+    <Alias n="46" Id="Namespace=MaasOne.Base" />
+    <Alias n="47" Id="Member=(Name=ConvertResult OverloadingParameters=[(@45 @46 Type=ConnectionInfo),(@3 Namespace=System.IO Type=Stream),(@45 @46 Type=SettingsBase)])" />
+    <Alias n="48" Id="(@43 @44 Type=CompanyStatisticsDownload @47)" />
+    <Alias n="49" Id="(@3 @4 Type=Double)" />
+    <Alias n="50" Id="(@1 @2 @20 Member=(Name=Render OverloadingParameters=[(@18 Namespace=System.Drawing Type=Graphics),@25,@36,@49]))" />
+    <Alias n="51" Id="(@1 Namespace=NB.StockStudio.Foundation.DataProvider Type=DataPackage Member=(Name=.ctor OverloadingParameters=[(@3 @4 Type=DateTime),@49,@49,@49,@49,@49,@49,@27,@27]))" />
+    <Alias n="52" Id="(@5 @6 Type=SymbolForm Member=.cctor)" />
+    <Alias n="53" Id="(@13 @14 @15 Member=ApplySkin)" />
+    <Alias n="54" Id="(@1 @2 @20 Member=Bind)" />
+    <Alias n="55" Id="(@1 @2 @17 Member=Bind)" />
+    <Alias n="56" Id="(@1 @2 @17 Member=GetMemBitmap)" />
+    <Alias n="57" Id="(@5 @6 Type=MainForm Member=Main)" />
+    <Alias n="58" Id="(@13 @14 @15 Member=SetDataCycle)" />
+    <Alias n="59" Uri="Assembly=NB.StockStudio.CoreIndicator" />
+    <Alias n="60" Id="(Name=FML.EXTEND.BB.Run @59 Type=NB.StockStudio.Foundation.FormulaPackage OverloadingParameters=[(Type=NB.StockStudio.Foundation.DataProvider.IDataProvider Name=dp)] IsUnresolved=True)" />
+    <Alias n="61" Id="(Name=FML.EXTEND.RSI.Run @59 Type=NB.StockStudio.Foundation.FormulaPackage OverloadingParameters=[(Type=NB.StockStudio.Foundation.DataProvider.IDataProvider Name=dp)] IsUnresolved=True)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Call Stack Node" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External Call Stack Entry" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="True">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="144d73ca-9855-48d6-90d8-32f17c1e39e2.OutputPath" Value="E:\Development\TradingProjects\Easy Financial Chart3.5 .net 4.5\StockExpert\NB.StockStudio.WinControls\bin\Debug\NB.StockStudio.WinControls.dll" />
+    <Path Id="144d73ca-9855-48d6-90d8-32f17c1e39e2.OutputPathUri" Value="file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.WinControls/bin/Debug/NB.StockStudio.WinControls.dll" />
+    <Path Id="203e203c-9025-4d3f-bad7-f36d53e8b9e7.OutputPathUri" Value="file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne/bin/Debug/MaasOne.dll" />
+    <Path Id="a3c55947-1d21-401b-802c-dbf156061b3e.OutputPathUri" Value="file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/MassOne/MaasOne.Yahoo/bin/Debug/MaasOne.Yahoo.dll" />
+    <Path Id="b59645b3-b855-48e0-92a3-a46579454396.OutputPath" Value="E:\Development\TradingProjects\Easy Financial Chart3.5 .net 4.5\StockExpert\NB.StockStudio.Foundation\bin\Debug\NB.StockStudio.Foundation.dll" />
+    <Path Id="b59645b3-b855-48e0-92a3-a46579454396.OutputPathUri" Value="file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio.Foundation/bin/Debug/NB.StockStudio.Foundation.dll" />
+    <Path Id="d79f7796-8af2-4d05-82bb-d52a829dbba6.OutputPath" Value="E:\Development\TradingProjects\Easy Financial Chart3.5 .net 4.5\StockExpert\NB.StockStudio\bin\Debug\NB.StockStudio.exe" />
+    <Path Id="d79f7796-8af2-4d05-82bb-d52a829dbba6.OutputPathUri" Value="file:///E:/Development/TradingProjects/Easy Financial Chart3.5 .net 4.5/StockExpert/NB.StockStudio/bin/Debug/NB.StockStudio.exe" />
+    <Path Id="FxReferenceAssemblies" Value="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>

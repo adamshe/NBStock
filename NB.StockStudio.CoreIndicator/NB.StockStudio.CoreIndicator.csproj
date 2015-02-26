@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE99C993-B2D7-4478-BB93-FDE93354F17F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FML.NATIVE</RootNamespace>
+    <AssemblyName>NB.StockStudio.CoreIndicator</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\NB.StockStudio\bin\Debug\Plugins\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basic\BB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Basic\BIAS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Basic\CCI.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Basic\DMA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Basic\MA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Basic\MACD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Basic\SlowSTO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Basic\VOLMA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Extend\BB.cs" />
+    <Compile Include="Extend\CmpIndi.cs" />
+    <Compile Include="Extend\Compare.cs" />
+    <Compile Include="Extend\SRAxisY.cs" />
+    <Compile Include="Extend\SR.cs" />
+    <Compile Include="Extend\SlowSTO.cs" />
+    <Compile Include="Extend\RSI.cs" />
+    <Compile Include="Extend\RefIndi.cs" />
+    <Compile Include="Extend\MainArea.cs" />
+    <Compile Include="Native\COMPARESTOCK.cs" />
+    <Compile Include="Native\VOL.cs" />
+    <Compile Include="Native\MAIN.cs" />
+    <Compile Include="Native\MA.cs" />
+    <Compile Include="Native\HL.cs" />
+    <Compile Include="Native\ERROR.cs" />
+    <Compile Include="Native\EMA.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NB.StockStudio.Foundation\NB.StockStudio.Foundation.csproj">
+      <Project>{b59645b3-b855-48e0-92a3-a46579454396}</Project>
+      <Name>NB.StockStudio.Foundation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scan\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

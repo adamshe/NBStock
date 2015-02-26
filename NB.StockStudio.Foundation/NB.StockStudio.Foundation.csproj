@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B59645B3-B855-48E0-92A3-A46579454396}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>NB.StockStudio.Foundation</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NB.StockStudio.Foundation</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+      <HintPath>mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <HintPath>System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <HintPath>System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+      <HintPath>System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+      <HintPath>System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaHelper.cs" />
+    <Compile Include="DataProvider\CacheDataManagerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataProvider\CommonDataProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataProvider\DataManagerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataProvider\DataPackage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataProvider\IDataManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataProvider\IDataProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataProvider\IntraDataManagerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataProvider\MergeCycleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataProvider\RandomDataProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataProvider\YahooDataManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\AreaCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\AxisLabelAlign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\AxisPos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\AxisXCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\AxisYCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ChartDragMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Chinese.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\DataCycle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\DataCycleBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\DataCycleCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\DeepClone.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ExchangeIntraday.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaAlign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaArea.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaAxisX.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaAxisY.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaBack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaCanvas.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaChart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaDot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaErrorException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaHitInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaHitType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaLabel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaPackage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaPackageCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaParam.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaProgram.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaRenderType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaSkin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaSpace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaSpaceCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaTick.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FormulaXFormat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\LatestValueType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\LunarInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\NativePaintArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\NativePaintHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ObjectLabel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ObjectPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ParamCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PluginManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ProgramCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ScaleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\StickAlignment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\StockRenderType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\TimePeriod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Transform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\TransformFunc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\VerticalAlign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ViewChangedArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ViewChangedHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\XFormatCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FML.NATIVE\CustomData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FML.NATIVE\CustomFormula.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FML.NATIVE\ERROR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Valuation\FairValue.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Stock.edmx">
+      <LastGenOutput>Stock.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="EF.Reverse.POCO.Core.ttinclude" />
+    <None Include="EF.Reverse.POCO.ttinclude" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Stock.edmx.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
