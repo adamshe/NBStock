@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using NB.StockStudio.Foundation.Valuation;
 using MaasOne.Finance.Nasdaq;
 using System.Linq;
+using System.Diagnostics;
 namespace MaasOne.Yahoo.UnitTests
 {
     [TestClass]
@@ -52,7 +53,7 @@ namespace MaasOne.Yahoo.UnitTests
                     var fairValue = FairValue.DiscountedCurrentValue(eps, 3, growthRate/100.0, inflation, bondRate);
                     if (eps <= 0 && fairValue <= 0)
                         fairValue = FairValue.FutureValue(highlight.RevenuePerShare , growthRate/100.0, 1)  * 1.5;
-                    Console.WriteLine("symbol:{0} forward P/E : {1} EV/Rev : {2} - Margin: {3} ShortPercentage : {4}  EPS: {5}  GrowthRate: {6} FairValue : {7}", id, vm.ForwardPE, vm.EnterpriseValueToRevenue, highlight.ProfitMarginPercent, ti.ShortPercentOfFloat, eps, growthRate, fairValue);
+                    Debug.WriteLine("symbol:{0} forward P/E : {1} EV/Rev : {2} - Margin: {3} ShortPercentage : {4}  EPS: {5}  GrowthRate: {6} FairValue : {7}", id, vm.ForwardPE, vm.EnterpriseValueToRevenue, highlight.ProfitMarginPercent, ti.ShortPercentOfFloat, eps, growthRate, fairValue);
                 }
             });
             
