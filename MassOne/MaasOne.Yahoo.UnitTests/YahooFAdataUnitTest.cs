@@ -14,11 +14,11 @@ namespace MaasOne.Yahoo.UnitTests
     public class YahooFAdataUnitTest
     {
         double inflation = 0.02;
-        double bondRate = 0.1;
+        double bondRate = 0.0795;
         IEnumerable<string> ids = new string[] {  
-            "BIDU"
-          /*  "GILD", "PCYC", "AMGN", "BIIB", "JAZZ", "REGN",
-            "JPM", "GS", "MS", "BAC", "C", "MCO"
+            "BIDU",
+           "GILD", "CELG","VRX", "PCYC", "AMGN", "BIIB", "JAZZ", "REGN",
+            "JPM", "GS", "MS", "BAC", "C", "MCO", "DFS",
             "AAPL","MSFT","GOOG","AMZN","CSCO", "QCOM",
             "FB","LNKD","TWTR","NFLX", "PCLN",
             "QIHU","BIDU","JD","JMEI","VIPS","BITA","HTHT", "CTRP",
@@ -27,7 +27,7 @@ namespace MaasOne.Yahoo.UnitTests
             "LOCO", "CMG", "MNST",
             "BA",
             "WYNN", "LVS"
-           * */
+          
         };
 
         #region Yahoo Download
@@ -46,6 +46,7 @@ namespace MaasOne.Yahoo.UnitTests
                     var vm = item.ValuationMeasures;
                     var highlight = item.FinancialHighlights;
                     var eps = highlight.DilutedEPS;
+                    
                    // var growthRate1 = vm.TrailingPE / vm.ForwardPE;
                     var growthRate = highlight.QuarterlyRevenueGrowthPercent;//.QuaterlyEarningsGrowthPercent /100.0;
                     //var outStandingShare = vm.MarketCapitalisationInMillion / highlight.RevenuePerShare.
@@ -53,7 +54,16 @@ namespace MaasOne.Yahoo.UnitTests
                     var fairValue = FairValue.DiscountedCurrentValue(eps, 3, growthRate/100.0, inflation, bondRate);
                     if (eps <= 0 && fairValue <= 0)
                         fairValue = FairValue.FutureValue(highlight.RevenuePerShare , growthRate/100.0, 1)  * 1.5;
-                    Debug.WriteLine("symbol:{0} forward P/E : {1} EV/Rev : {2} - Margin: {3} ShortPercentage : {4}  EPS: {5}  GrowthRate: {6} FairValue : {7}", id, vm.ForwardPE, vm.EnterpriseValueToRevenue, highlight.ProfitMarginPercent, ti.ShortPercentOfFloat, eps, growthRate, fairValue);
+                    Debug.WriteLine("{0}      FairValue : {1}      forward P/E : {2}       EV/Rev : {3}       Margin: {4}          ShortPercentage : {5}       EPS: {6}      GrowthRate: {7}",
+                        id.PadRight(5),
+                        fairValue.ToString("C").PadLeft(9),
+                        vm.ForwardPE.ToString().PadLeft(8),
+                        vm.EnterpriseValueToRevenue.ToString().PadLeft(8),
+                        (highlight.ProfitMarginPercent / 100.0).ToString("P").PadLeft(9),
+                        (ti.ShortPercentOfFloat / 100.0).ToString("P").PadLeft(8),
+                        eps.ToString("C").PadLeft(8),
+                        (growthRate / 100.0).ToString("P").PadLeft(8));
+                       
                 }
             });
             
